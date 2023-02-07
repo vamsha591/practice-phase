@@ -1,7 +1,0 @@
-package com.example.department.service.services;
-
-import com.example.department.service.entities.Department;
-
-public interface LocationService {
-	Department findByLocation(String location);
-}

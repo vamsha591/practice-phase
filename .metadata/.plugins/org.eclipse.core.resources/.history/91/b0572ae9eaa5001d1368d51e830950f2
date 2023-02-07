@@ -1,5 +1,0 @@
-package com.example.department.service.services;
-
-public interface LocationService {
-
-}

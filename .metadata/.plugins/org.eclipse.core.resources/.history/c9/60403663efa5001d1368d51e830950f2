@@ -1,9 +1,0 @@
-package com.example.department.service.services;
-
-import java.util.List;
-
-import com.example.department.service.entities.Department;
-
-public interface LocationService {
-	List<Department> findByLocation(String location);
-}

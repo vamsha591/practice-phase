@@ -1,9 +1,0 @@
-package com.example.employee.service.repositories;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.example.employee.service.entities.Employee;
-
-public interface EmployeeRepository extends JpaRepository<Employee, String>{
-
-}
