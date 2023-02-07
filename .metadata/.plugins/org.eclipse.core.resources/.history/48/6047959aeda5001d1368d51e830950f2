@@ -1,0 +1,5 @@
+package com.example.department.service.response;
+
+public class ApiResponse {
+
+}

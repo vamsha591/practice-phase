@@ -1,0 +1,14 @@
+package com.example.work.service.services.impl;
+
+import com.example.work.service.entity.WorksOn;
+import com.example.work.service.services.WorksOnService;
+
+public class WorksOnServiceImpl implements WorksOnService{
+
+	@Override
+	public WorksOn assignWork(WorksOn worksOn) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

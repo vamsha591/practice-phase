@@ -1,0 +1,17 @@
+package com.example.work.service.services.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.work.service.entity.WorksOn;
+import com.example.work.service.repositories.WorksOnRepository;
+import com.example.work.service.services.WorksOnService;
+
+public class WorksOnServiceImpl implements WorksOnService{
+	@Autowired
+	private WorksOnRepository worksOnRepository;
+	@Override
+	public WorksOn assignWork(WorksOn worksOn) {
+		return worksOnRepository.save(worksOn);
+	}
+
+}

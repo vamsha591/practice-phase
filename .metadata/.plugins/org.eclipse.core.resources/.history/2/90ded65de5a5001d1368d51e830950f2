@@ -1,0 +1,5 @@
+package com.example.employee.service.entities;
+
+public class Location {
+
+}

@@ -1,0 +1,28 @@
+package com.example.department.service.services.impl;
+
+import java.util.List;
+
+import com.example.department.service.entities.Department;
+import com.example.department.service.services.DepartmentService;
+
+public class DepartmentServiceImpl implements DepartmentService{
+
+	@Override
+	public Department createDepartment(Department department) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Department> findAllDepartment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Department findDepartmentById(int dno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

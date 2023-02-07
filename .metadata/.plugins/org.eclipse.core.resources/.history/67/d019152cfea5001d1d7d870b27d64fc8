@@ -1,0 +1,13 @@
+package com.example.work.service.entity;
+
+import java.time.LocalDate;
+
+public class Employee {
+	private String ssn;
+	private String name;
+	private double salary;
+	private LocalDate dob;
+	private LocalDate doj;
+	private String gender;
+	private boolean isManager;
+}

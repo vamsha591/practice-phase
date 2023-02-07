@@ -1,0 +1,5 @@
+package com.example.work.service.services;
+
+public interface WorksOnService {
+
+}

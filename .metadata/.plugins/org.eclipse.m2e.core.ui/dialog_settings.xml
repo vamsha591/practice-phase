@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Vamshi\eclipse-microservice\Api-Gateway"/>
+			<item value="C:\Users\Vamshi\eclipse-microservice\Works-On"/>
+			<item value="C:\Users\Vamshi\eclipse-microservice\Department-Service"/>
+			<item value="C:\Users\Vamshi\eclipse-microservice\Employee-Service"/>
+			<item value="C:\Users\Vamshi\eclipse-microservice\serviceregistry"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

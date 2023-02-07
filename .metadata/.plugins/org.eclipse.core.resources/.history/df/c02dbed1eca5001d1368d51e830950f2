@@ -1,0 +1,5 @@
+package com.example.department.service;
+
+public class DepartmentController {
+
+}

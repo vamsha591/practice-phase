@@ -1,0 +1,5 @@
+package com.example.employee.service.controller;
+
+public class EmployeeController {
+
+}

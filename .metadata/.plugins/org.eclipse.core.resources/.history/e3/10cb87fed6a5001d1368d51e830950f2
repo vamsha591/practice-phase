@@ -1,0 +1,7 @@
+package com.example.employee.service.entities;
+
+public class Department {
+	private int Dno;
+	private String name;
+	private String location;
+}

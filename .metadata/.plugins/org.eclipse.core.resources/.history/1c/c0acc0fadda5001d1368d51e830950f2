@@ -1,0 +1,44 @@
+package com.example.employee.service.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.employee.service.dto.EmployeeDto;
+import com.example.employee.service.entities.Employee;
+import com.example.employee.service.exceptions.ResourceNotFoundException;
+import com.example.employee.service.repositories.EmployeeRepository;
+import com.example.employee.service.services.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService {
+	@Autowired
+	private EmployeeRepository employeeRepository;
+	@Override
+	public Employee createEmployee(Employee employee) {
+		return employeeRepository.save(employee);
+	}
+	@Override
+	public List<Employee> getAllEmployee() {
+		return employeeRepository.findAll();
+	}
+	@Override
+	public Employee getEmployeeById(String ssn) {
+		return employeeRepository.findById(ssn).orElseThrow(()->new ResourceNotFoundException("Employee with ssn "+ssn+" not found"));
+	}
+	@Override
+	public List<Employee> getAllEmployeeByName(String name) {
+		return employeeRepository.findByNameContains(name);
+	}
+	@Override
+	public Employee updateEmployee(String ssn,EmployeeDto employeeDto) {
+		Employee employee=employeeRepository.findById(ssn).orElseThrow(()->new ResourceNotFoundException("Employee with ssn "+ssn+" not found"));
+		BeanUtils.copyProperties(employeeDto, employee);
+		return employee;
+	}
+	@Override
+	public String deleteEmployee(String ssn) {
+		employeeRepository.deleteById(ssn);
+		return "Done";
+	}
+}

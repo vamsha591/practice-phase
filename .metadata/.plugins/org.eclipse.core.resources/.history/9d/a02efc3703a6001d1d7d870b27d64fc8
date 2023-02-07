@@ -1,0 +1,9 @@
+package com.example.work.service.services;
+
+import com.example.work.service.entity.WorksOn;
+
+public interface WorksOnService {
+	WorksOn assignWork(WorksOn worksOn);
+	WorksOn getByUserId(String ssn);
+	WorksOn getByDeptId(int dno);
+}
