@@ -1,19 +1,19 @@
 
-†
-java:S16022"SRemove useless curly braces around statement and then remove useless return keyword(öãªì8ĞõŒ²â0HİRMINORZ
-CODE_SMELL
-†
-java:S1602%"SRemove useless curly braces around statement and then remove useless return keyword(öãªì8Äéï±â0HŞRMINORZ
-CODE_SMELL
 b
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8Äéï±â0HßRMINORZ
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8Äéï±â0H÷RMINORZ
+CODE_SMELL
+†
+java:S1602>"SRemove useless curly braces around statement and then remove useless return keyword(öãªì8ú‹‘²â0HùRMINORZ
 CODE_SMELL
 
-java:S1192""gDefine a constant instead of duplicating this literal "http://WORKS-ON-SERVICE/WorksOn/users/" 3 times.(£è¶­8ŠÙÌ³â0HáRCRITICALZ
-CODE_SMELL
-œ
-java:S1192&"fDefine a constant instead of duplicating this literal "http://DEPARTMENT-SERVICE/Department/" 3 times.( Ù‹8ŠÙÌ³â0HåRCRITICALZ
+java:S1192""gDefine a constant instead of duplicating this literal "http://WORKS-ON-SERVICE/WorksOn/users/" 3 times.(£è¶­8ŠÙÌ³â0HúRCRITICALZ
 CODE_SMELL
 †
-java:S1602>"SRemove useless curly braces around statement and then remove useless return keyword(öãªì8ú‹‘²â0HéRMINORZ
+java:S16022"SRemove useless curly braces around statement and then remove useless return keyword(öãªì8ĞõŒ²â0HşRMINORZ
+CODE_SMELL
+†
+java:S1602%"SRemove useless curly braces around statement and then remove useless return keyword(öãªì8Äéï±â0HÿRMINORZ
+CODE_SMELL
+œ
+java:S1192&"fDefine a constant instead of duplicating this literal "http://DEPARTMENT-SERVICE/Department/" 3 times.( Ù‹8ŠÙÌ³â0H€RCRITICALZ
 CODE_SMELL
